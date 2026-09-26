@@ -1,0 +1,12 @@
+# IDE / Agent local config
+.trae/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node (if applicable)
+node_modules/
+dist/
