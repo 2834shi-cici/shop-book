@@ -1,12 +1,42 @@
-# IDE / Agent local config
-.trae/
-
-# OS / editor
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
 *.swp
+*.swo
 *~
 
-# Node (if applicable)
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
 node_modules/
+vendor/
+
+# Build output
 dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Trae (local config)
+.trae/
+
+# Scratch (local issue tracker if used)
+.scratch/
