@@ -1,0 +1,25 @@
+{
+  "pages": [],
+  "window": {
+    "navigationBarTitleText": "宠物洗护预约",
+    "navigationBarBackgroundColor": "#FF8A3D",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF8A3D",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/booking/booking",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/my-bookings/my-bookings",
+        "text": "我的预约"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

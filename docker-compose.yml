@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: shop-book-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: shopbook
+      POSTGRES_PASSWORD: shopbook
+      POSTGRES_DB: shopbook
+    ports:
+      - "5432:5432"
+    volumes:
+      - shop-book-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shopbook -d shopbook"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  shop-book-pgdata:
