@@ -72,7 +72,12 @@
 - `cancelled`：`neutral-400` 文字 + `neutral-100` 背景
 - `no_show`：`danger-500` 文字 + `#FFF1F0` 背景
 
-## 导航
+### 按钮 `button`
+- 主按钮：`primary-500` 实心背景 + 白色文字，圆角 `radius-sm`，内边距 `spacing-sm` `spacing-lg`
+- 次按钮：白底 + `neutral-200` 描边 + `neutral-900` 文字，圆角 `radius-sm`
+- 全宽按钮：`width: 100%`
+- 禁用态：`neutral-400` 文字 + `neutral-100` 背景，不可点击
+- loading 态：显示加载指示器，禁用点击
 
 ### 小程序底栏 Tab
 - 高度 50px + 安全区，背景 `surface-base`
